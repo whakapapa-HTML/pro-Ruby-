@@ -1,6 +1,6 @@
 class User
-    
-  attr_reader :name 
+
+  attr_reader :name
 
   def initialize(name,weight)
     @name = name
