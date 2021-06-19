@@ -1,8 +1,8 @@
+
 require_relative '../lib/deep_freezable'
 
-class Bank
+class Team
   extend DeepFreezable
 
-  CURRENCIES = deep_freeze({'japan'=>'yen', 'US'=>'doller','india'=>'rupee'})
+  COUNTRIES = deep_freeze(['japan','US','india'])
 end
-
