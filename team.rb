@@ -1,4 +1,3 @@
-
 require_relative '../lib/deep_freezable'
 
 class Team
