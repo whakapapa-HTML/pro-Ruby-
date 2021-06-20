@@ -1,4 +1,5 @@
 module NameChanger
+
   def change_name
     self.name ='アリス'
   end
@@ -6,6 +7,7 @@ end
 
 class User
   include NameChanger
+
   attr_accessor :name
 
   def initialize(name)
@@ -14,7 +16,5 @@ class User
 end
 
 user = User.new('ポケモン')
-
-
 user.change_name
 puts user.name
