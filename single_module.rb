@@ -3,7 +3,7 @@ module Loggable
     puts "[LOG]  #{text}"
   end
   module_function :log
-end
+
 
 puts Loggable.log('Hello')
 
