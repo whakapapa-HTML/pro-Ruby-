@@ -20,4 +20,5 @@ class Gate
     distance = to - from
     FARES[distance - 1]
   end
+
 end
